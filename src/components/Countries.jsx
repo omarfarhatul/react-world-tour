@@ -8,6 +8,7 @@ const Countries = () => {
         .then(res=>res.json())
         .then(data=>console.log(data));
     },[])
+    
     return (
         <div>
             <h3>Countries</h3>
